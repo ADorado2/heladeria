@@ -4,14 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Heladeria L & S</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <header class="barra">
+
+  <header id="inicio" class="barra">
     <span class="logo">Heladería L & S</span>
     <nav class="links">
       <a href="#">Inicio</a>
-      <a href="#">Productos</a>
+      <a href="productos.html">Productos</a>
     </nav>
   </header>
 
-  <body></body>
+  <body>
+    <main>
+      <section class="hero">
+        <h1>La Heladería de la familia</h1>
+        <img
+          src="https://img.magnific.com/fotos-premium/fondo-abstracto-colorido-helado-heladeria-amplio-render-cinematografico_510654-296.jpg?w=1060"
+          alt="Conos de Helado"
+        />
+        <h1>Since 2015</h1>
+      </section>
+
+      <article class="aboutus">
+        <h1>Sobre nosotros</h1>
+        <p>
+          Somos una heladeria familiar, atendida por sus propios dueños. Los
+          productos son elaborados artesanalmente por nosotros.
+        </p>
+      </article>
+
+      <section class="contacto">
+        <form>
+          <h2>Contacto</h2>
+
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje"></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="foot">
+      Estamos en la tradicional esquina de Pringles y Savio.
+    </footer>
+  </body>
 </html>
