@@ -10,8 +10,7 @@
   <header id="inicio" class="barra">
     <span class="logo">Heladería L & S</span>
     <nav class="links">
-      <a href="#">Inicio</a>
-      <a href="productos.html">Productos</a>
+      <a href="#">Inicio</a> <a href="productos.html">Productos</a>
     </nav>
   </header>
 
@@ -38,22 +37,29 @@
         <form>
           <h2>Contacto</h2>
 
-          <label for="nombre">Nombre</label>
-          <input type="text" id="nombre" name="nombre" />
+          <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" />
+          </div>
 
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" />
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+          </div>
 
-          <label for="mensaje">Mensaje</label>
-          <textarea id="mensaje" name="mensaje"></textarea>
-
+          <div>
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+          </div>
           <button type="submit">Enviar</button>
         </form>
       </section>
     </main>
 
-    <footer class="foot">
-      Estamos en la tradicional esquina de Pringles y Savio.
-    </footer>
+    <section>
+      <footer class="foot">
+        Estamos en la tradicional esquina de Pringles y Savio.
+      </footer>
+    </section>
   </body>
 </html>
