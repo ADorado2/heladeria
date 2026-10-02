@@ -108,11 +108,11 @@
 
 .foot {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  text-align: center;
   background-color: var(--manteca);
   padding: 30px 40px;
   font-style: italic;
+  font-size: 30px;
 }
 
 .heroproductos,
